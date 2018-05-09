@@ -1,4 +1,5 @@
 # 4Pics1Word
+A very simple game. Each level has 4 pictures and the player has to guess the word.
 
 ## Splash Screen
 ![splash](https://user-images.githubusercontent.com/23395758/39796970-83d24258-530e-11e8-929e-0f169103fb4b.png)
