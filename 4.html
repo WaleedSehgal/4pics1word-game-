@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Level 4</title>
+
+<link href="css/4.css" media="all" type="text/css" rel="stylesheet" />
+<script src="script/4.js"></script>
+</head>
+
+<body background="Images/start.jpg">
+<center>.
+<div id="bigWrapper">
+	    <div id="coins"></div>
+        <div id="count">70</div>
+        <div id="level"><font size="+6" face="Comic Sans MS, cursive">4</font></div>
+        <div id="largeImgPanel" onclick="hideMe(this);"></div>
+        <div id="largeImgPanel2" onclick="hideMe(this);"></div>
+        <div id="largeImgPanel3" onclick="hideMe(this);"></div>
+        <div id="largeImgPanel4" onclick="hideMe(this);"></div>
+    
+    <div id="imagesWrapper">
+    	<div id="img1"><img src="Images/fan.jpg" style="cursor:pointer" onclick="showImage();" /></div>
+        <div id="img2"><img src="Images/fan2.jpg" style="cursor:pointer" onclick="showImages();" /></div>
+        <div id="img3"><img src="Images/fan3.jpg" style="cursor:pointer" onclick="showImages3();" /></div>
+        <div id="img4"><img src="Images/fan4.JPG" style="cursor:pointer" onclick="showImages4();" /></div>
+    </div>
+    
+        <div id="textBox">
+   <div id="empty1" class="box" onclick="return delSpace1()"></div>
+   <div id="empty2" class="box" onclick="return delSpace2()"></div>
+    <div id="empty3" class="box" onclick="return delSpace3()"></div>
+   
+    </div>
+    
+    <form name="keyPad" id="keyPad">
+      <input type="button" name="btn1" id="btn1" class="keys" value="I"  onclick="return btn1Click()" />
+      <input type="button" name="btn2" id="btn2" class="keys" value="P" onclick="return btn2Click()" />
+      <input type="button" name="btn3" id="btn3" class="keys" value="A" onclick="return btn3Click()" />
+      <input type="button" name="btn4" id="btn4" class="keys" value="T" onclick="return btn4Click()" />
+      <input type="button" name="btn5" id="btn5" class="keys" value="S" onclick="return btn5Click()" />
+      <br />
+      <input type="button" name="btn6" id="btn6" class="keys"  value="F" onclick="return btn6Click()" />
+      <input type="button" name="btn7" id="btn7" class="keys"  value="O" onclick="return btn7Click()" />
+      <input type="button" name="btn8" id="btn8" class="keys"  value="G" onclick="return btn8Click()" />
+      <input type="button" name="btn9" id="btn9" class="keys"  value="N" onclick="return btn9Click()" />
+      <input type="button" name="btn10" id="btn10" class="keys"  value="U" onclick="return btn10Click()" />
+    </form>
+    <button id="facebook" onclick="redirect()"></button>
+    <br />
+</div>
+
+
+</div>
+</center>
+</body>
+</html>

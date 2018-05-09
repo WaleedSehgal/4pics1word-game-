@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Start</title>
+
+<style>
+body {
+	background-image:url(Images/start_1.jpg);
+	}
+
+#button{
+	border:thick;
+	border-color:#0CF;
+	border-radius:40px;
+	border-style:solid;
+	width:150px;
+	height:80px;
+	background-color:#59DEFF;
+	position:relative;
+	left:580px;
+	top:110px;
+	
+	}		
+	#level{
+	width:200px;
+	height:200px;
+	background-image:url(Images/level.png);
+	position:relative;
+	top:10px;
+	left:-20px;
+	text-align:center;
+	line-height:150px;
+	font-size:xxx-large;
+	color:#09F;
+	
+	}
+</style>
+<script>
+function redirect(){
+window.location="main.html"
+return}
+</script>
+</head>
+
+<body>
+<center>
+ <div id="level"><font size="+6" face="Comic Sans MS, cursive">1</font></div>
+</center>
+<button id='button' onclick="redirect()"><font color="#006699" face="Lucida Sans Unicode, Lucida Grande, sans-serif" size="+0.5"  >START</font></button>
+
+</body>
+</html>
